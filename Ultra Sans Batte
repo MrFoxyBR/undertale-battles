@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Undertale - Ultra Sans</title>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>-->
+    <script src="scripts/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="scripts/engine.js" type="text/javascript"></script>
+    <script src="scripts/ultrasansGame.js" type="text/javascript"></script>
+    <!-- Fonts for the game -->
+    <link href='default.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="gamecontainer">
+    <canvas id="sans" width="640" height="480" style="color: #FFFFFF; text-align: center;">
+        <!--<img src="assets/images/loadingTitleComplete.png" width="800" style="padding-top: 240px; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges;     image-rendering: -webkit-optimize-contrast; -ms-interpolation-mode: nearest-neighbor; image-rendering: pixelated;">-->
+        <p>Your browser doesn't appear to support the HTML5 &lt;canvas&gt;</code> element.</p>
+    </canvas>
+</div>
+<div id="description">
+    <p>Controls:</p>
+    <p>any to start the next message(once the last has ended)</p>
+    <p>X to skip to the end of the current message (if talking)</p>
+    <p>P to skip to the last message (if talking)</p>
+    <br>
+    <p>If the game is stuck loading or doesn't start loading please refresh</p>
+    <p>Could just be a bug with counting loaded files</p>
+    <p>Image smoothing is not currently available in IE or Safari</p>
+    <p>To zoom in hold ctrl and use the mouse wheel (easiest way to change size)</p>
+    <p>If you have the cache disabled you're gonna have a bad time</p>
+    <br>
+    <p>Additional Credits:</p>
+    <p>Toby Fox (For creating undertale)</p>
+    <p><a href="https://www.youtube.com/watch?v=arvDV2JGE8s">Origional Idea</a></p>
+    <p><a href="https://www.youtube.com/watch?v=IQBqSt15Vi0">Music</a></p>
+    <br>
+    <p>Side Notes:</p>
+    <p>This is one of the first things I have made in javascript so dont expect much :)</p>
+    <p>The current text rendering method is temporary and will be changed to get a hard edge pixel font.</p>
+    <p>I may not complete this game so this so far is just a test. However I may continue it just for fun if I have time :)</p>
+    <br>
+    <p>Sorry about the audio for some people, the current method relies on the system caching the sounds and for some it just constantly loads the files causing audio lag. I will recode soon.</p>
+    <!--<p>Controls:</p>
+    <p>LEFT and RIGHT: run left and right</p>
+    <p>UP: jump</p>
+    <p>Z: light attack</p>
+    <p>X: medium attack</p>
+    <p>C: heavy attack</p>-->
+</div>
+</body>
+</html>
